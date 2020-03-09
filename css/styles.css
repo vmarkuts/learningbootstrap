@@ -54,6 +54,20 @@ body {
   margin-bottom: 10px;
 }
 
+@media Screen and (max-width:991px) {
+    .modal .form-group input {
+      margin-bottom: 10px;
+    }
+}
+
+.jumbotron .btn-warning {
+  color: #000;
+}
+
+.jumbotron .btn-warning:hover {
+  color: #000;
+}
+
 /* carousel */
 
 .carousel {
