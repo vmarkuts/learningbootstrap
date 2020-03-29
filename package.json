@@ -6,13 +6,15 @@
   "scripts": {
     "start": "npm run lite",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "lite-server"
+    "dev": "lite-server",
+    "scss": "node-sass -o css/ css/"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
     "lite": "^4.0.5",
-    "lite-server": "^2.3.0"
+    "lite-server": "^2.3.0",
+    "node-sass": "^4.7.2"
   },
   "dependencies": {
     "bootstrap": "^4.4.1",
